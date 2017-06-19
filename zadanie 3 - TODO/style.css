@@ -1,0 +1,68 @@
+body {
+    background: black;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-delete {
+    background-color: #4CAF50; /* Green */
+}
+
+#board {
+    padding: 2%;
+    background: grey;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.add-card {
+    background-color: green; /* Green */
+}
+
+#board h1 {
+    text-align: center;
+}
+
+#board .create-column {
+    background-color: black;
+    margin: 10px;
+}
+
+.column-container {
+    color: white;
+    display: flex;
+}
+
+.column-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.column {
+    margin: 0 10px;
+    border: solid 1px black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card {
+    display: flex;
+    background-color: darkolivegreen;
+    border-bottom: 1px solid black;
+}
+
+.card-description{
+    padding: 0 10px;
+}
+
